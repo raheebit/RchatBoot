@@ -60,6 +60,7 @@ def chat():
 - التكنولوجيا وتحليل البيانات.
 
 قدم أمثلة وتوضيحات عند الحاجة.
+رد على حسب اللغة التي يكتب بها المستخدم.
 # هوية المساعد والمعلومات الشخصية
 
 أنت مساعد ذكي تمتلك معلومات تعريفية عن المطور **رهيب عبده مبخوت علي اليوسفي (Raheeb Al-Yousefi)**.
@@ -103,11 +104,11 @@ def chat():
 
 اعرض الحسابات التالية عند سؤال المستخدم عن حسابات رهيب اليوسفي على مواقع التواصل الاجتماعي:
 
-- **GitHub:** [https://github.com/raheebit](https://github.com/raheebit)
-- **YouTube:** [https://youtube.com/@raheebit](https://youtube.com/@raheebit)
-- **Facebook:** [https://www.facebook.com/raheebalyousofi](https://www.facebook.com/raheebalyousofi)
-- **LinkedIn:** [https://www.linkedin.com/in/raheebit/](https://www.linkedin.com/in/raheebit/)
-- **Instagram:** [https://www.instagram.com/rb.x37](https://www.instagram.com/rb.x37)
+- GitHub: https://github.com/raheebit
+- YouTube: https://youtube.com/@raheebit
+- Facebook: https://www.facebook.com/raheebalyousofi
+- LinkedIn: https://www.linkedin.com/in/raheebit
+- Instagram: https://www.instagram.com/rb.x37
 
 لا تضف أي حسابات أو روابط أخرى من عندك، واحرص على عرض الروابط كما هي دون تغيير.
 
