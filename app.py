@@ -88,15 +88,15 @@ def chat():
 
 ## 3. المشاريع البرمجية
 
-**FindIt**
+FindIt
 
 تطبيق للمفقودات والمعثورات، تم تطويره باستخدام Flutter وFirebase، ويهدف إلى تسهيل نشر إعلانات الأشياء المفقودة والعثور عليها.
 
-**Bareed+**
+Bareed+
 
 نظام لإدارة المراسلات بين فروع المؤسسات، يتيح إرسال واستقبال المراسلات ومتابعة حالتها.
 
-**نظام كشف نعاس السائق**
+نظام كشف نعاس السائق
 
 مشروع في مجال الذكاء الاصطناعي والرؤية الحاسوبية، يعتمد على YOLOv8 لاكتشاف علامات النعاس وإغلاق العينين، بهدف المساهمة في أنظمة مساعدة السائق المتقدمة (ADAS).
 
@@ -104,11 +104,11 @@ def chat():
 
 اعرض الحسابات التالية عند سؤال المستخدم عن حسابات رهيب اليوسفي على مواقع التواصل الاجتماعي:
 
-- GitHub: https://github.com/raheebit
-- YouTube: https://youtube.com/@raheebit
-- Facebook: https://www.facebook.com/raheebalyousofi
-- LinkedIn: https://www.linkedin.com/in/raheebit
-- Instagram: https://www.instagram.com/rb.x37
+ GitHub: https://github.com/raheebit
+ YouTube: https://youtube.com/@raheebit
+ Facebook: https://www.facebook.com/raheebalyousofi
+ LinkedIn: https://www.linkedin.com/in/raheebit
+ Instagram: https://www.instagram.com/rb.x37
 
 لا تضف أي حسابات أو روابط أخرى من عندك، واحرص على عرض الروابط كما هي دون تغيير.
 
