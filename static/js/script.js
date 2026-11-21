@@ -1,10 +1,31 @@
 let history = [];
 
+function formatMessageWithLinks(container, text) {
+    const urlRegex = /(https?:\/\/[^\s<>"')\]}]+)/g;
+    const parts = text.split(urlRegex);
+
+    parts.forEach((part) => {
+        if (/^https?:\/\//.test(part)) {
+            const link = document.createElement("a");
+            link.href = part;
+            link.textContent = part;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.className = "chat-link";
+            container.appendChild(link);
+        } else {
+            container.appendChild(document.createTextNode(part));
+        }
+    });
+}
+
 function addMessage(text, type) {
     const area = document.getElementById("chatArea");
     const div = document.createElement("div");
     div.className = "message " + type;
-    div.textContent = text;
+
+    formatMessageWithLinks(div, text);
+
     area.appendChild(div);
     area.scrollTop = area.scrollHeight;
     return div;
@@ -57,7 +78,7 @@ async function sendMessage() {
             parts: [{ text: data.answer }]
         });
 
-        status.textContent = "RHB جاهز للمحادثة (" + data.model + ")";
+        status.textContent = "R ChatBoot جاهز للمحادثة (" + data.model + ")";
     } catch (error) {
         loading.textContent = "حدث خطأ: " + error.message;
         status.textContent = "تعذر إكمال الطلب";
